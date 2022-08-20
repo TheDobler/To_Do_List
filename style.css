@@ -18,11 +18,20 @@ body {
     font-size: x-large;
 }
 
+.maxWidth {
+    max-width: 1000px;
+}
+
+.minWidth {
+    min-width: 300px;
+}
+
 form {
     display: inline-block;
-    width: 60%;
+    width: 70%;
     margin-top: 100px;
     margin-bottom: auto;
+
 }
 
 label {
@@ -47,7 +56,7 @@ label {
 .listUl {
     text-align: left;
     /* border:  1px solid red; */
-    width: 50%;
+    width: 70%;
 
 }
 
@@ -72,6 +81,7 @@ label {
     border: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+
 }
 
 #InputText[type=text]:focus {
@@ -116,9 +126,10 @@ label {
 
 img {
     border-radius: 8px;
+    padding: 2px;
 }
 
 .delBtn:active {
     box-shadow: 0 2px #666;
-    transform: translateY(1px);
+    transform: translateY(2px);
 }

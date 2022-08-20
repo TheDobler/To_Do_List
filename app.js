@@ -10,7 +10,7 @@ submit.addEventListener('click', (e) => {
         const li = document.createElement('li');
         const delBtn = document.createElement('button')
         // delBtn.innerText = 'Delete'
-        delBtn.innerHTML = '<img src="/images/Thrash.png" alt="Trash" height="25px" width="auto" >'
+        delBtn.innerHTML = '<img src="/images/bin.png" alt="Trash" height="30px" width="auto">'
         delBtn.classList.add('delBtn');
         delBtn.addEventListener('click', (e) => {
             if (confirm('Are you sure?')) {
@@ -22,5 +22,7 @@ submit.addEventListener('click', (e) => {
 
         li.appendChild(delBtn);
         list.appendChild(li);
+
+        todo.value = "";
     }
 });
