@@ -2,7 +2,8 @@ const todo = document.getElementById("InputText");
 const submit = document.getElementById("submit");
 let list = document.querySelector('.listUl');
 const delBtn = document.getElementsByClassName('delBtn')
-
+//TODO: Add a database
+//TODO: Make it remember the to do list when the window refreshes
 
 submit.addEventListener('click', (e) => {
     e.preventDefault();
